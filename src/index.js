@@ -4,12 +4,13 @@ import "./index.css";
 import App from "./App";
 import { Provider } from "react-redux";
 import { store } from "./features/Store";
+import "../node_modules/font-awesome/css/font-awesome.min.css";
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
       <App />
-    </Provider>
+    </Provider>{" "}
   </React.StrictMode>,
 
   document.getElementById("root")
